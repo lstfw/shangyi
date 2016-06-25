@@ -1,7 +1,85 @@
-.nav {
-    background-color: rgba(0,0,0,0.3);
-    padding: 5px;
+body{
+    padding-top: 50px;
 }
+
+
+.box{
+    width: 150px;
+    margin: 10px auto 0;
+}
+
+
+.line{
+    background: url("../img/dian.png") repeat-x center ;
+    height: 125px;
+}
+
+.line2{
+    background: url("../img/dian.png") repeat-x center ;
+    height: 20px;
+}
+.text{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.main .menus{
+    height: 45px;
+}
+
+@media (min-width: 768px){
+    .box{
+        width: 180px;
+        margin: 10px auto 0;
+    }
+    .line{
+        height: 145px;
+    }
+
+    .text{
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 992px){
+    .line{
+        height: 120px;
+    }
+
+}
+
+.recruitNews{
+    border: 1px solid #ddd;
+    padding: 20px 40px;
+}
+
+.green{
+    color: #5ca6e6;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.gray{
+    color: #4d4d4d;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.black{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
 .menu{
     font-size: 18px;
     font-weight: 200;
@@ -14,12 +92,15 @@
 }
 
 .main .menus{
-    margin: 40px 0 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-.box{
-    width: 180px;
-    margin: 10px auto 0;
-}
+
+
+
+
+
+
 
 .foot{
     font-size: 18px;
